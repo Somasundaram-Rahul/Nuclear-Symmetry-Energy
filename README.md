@@ -1,3 +1,5 @@
+https://zenodo.org/badge/DOI/10.5281/zenodo.4010747.svg
+
 # Nuclear-Symmetry-Energy
 Supplementary material for the paper 'Constraints on the nuclear symmetry energy from asymmetric matter calculations with chiral effective field theory'.
 
