@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4010747.svg)](https://doi.org/10.5281/zenodo.4010747)
-
 # Nuclear-Symmetry-Energy
 Supplementary material for the paper 'Constraints on the nuclear symmetry energy from asymmetric matter calculations with chiral effective field theory'.
 
@@ -23,3 +21,4 @@ List of programs:
 
 Note: The folder `results/goodness of fit` contains the plots presented in the appendix of the paper. 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4010747.svg)](https://doi.org/10.5281/zenodo.4010747)
