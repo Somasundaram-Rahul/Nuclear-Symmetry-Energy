@@ -21,4 +21,4 @@ List of programs:
 
 Note: The folder `results/goodness_of_fit` contains the plots presented in the appendix of the paper. 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4010747.svg)](https://doi.org/10.5281/zenodo.4010747)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4012355.svg)](https://doi.org/10.5281/zenodo.4012355)
