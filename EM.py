@@ -75,9 +75,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h1/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h1/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
         else :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h1/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h1/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
         k[:,i,h-1,0] = f[:,0]
         spe[:,i,h-1,0] = f[:,4]
         spe_2[:,i,h-1,0] = f[:,1] + f[:,2]    
@@ -87,9 +87,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h2/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h2/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h2/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h2/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         k[:,i,h-1,0] = f[:,0]
         spe[:,i,h-1,0] = f[:,4]
         spe_2[:,i,h-1,0] = f[:,1] + f[:,2]    
@@ -98,9 +98,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h3/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h3/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
         else :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h3/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h3/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
         k[:,i,h-1,0] = f[:,0]
         spe[:,i,h-1,0] = f[:,4]
         spe_2[:,i,h-1,0] = f[:,1] + f[:,2]    
@@ -110,9 +110,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h4/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h4/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h4/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h4/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         k[:,i,h-1,0] = f[:,0]
         spe[:,i,h-1,0] = f[:,4]
         spe_2[:,i,h-1,0] = f[:,1] + f[:,2]    
@@ -121,9 +121,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h5/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h5/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h5/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h5/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         k[:,i,h-1,0] = f[:,0]
         spe[:,i,h-1,0] = f[:,4]
         spe_2[:,i,h-1,0] = f[:,1] + f[:,2]    
@@ -132,9 +132,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h6/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h6/SPE_n_0.0"+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Symmetric matter/h6/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
+            f  = np.loadtxt("data/Effective_mass/Symmetric_matter/h6/SPE_n_0."+str(i+1)+"00000_x_0.5_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
         k[:,i,h-1,0] = f[:,0]
         spe[:,i,h-1,0] = f[:,4]
         spe_2[:,i,h-1,0] = f[:,1] + f[:,2]    
@@ -145,9 +145,9 @@ def read_data():
     
     for i in range(1,21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h1/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h1/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
         else :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h1/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h1/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_1.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.26400_cE_-0.12000_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt" )
         k[:,i,h-1,1] = f[:,0]
         spe[:,i,h-1,1] = f[:,4]
         spe_2[:,i,h-1,1] = f[:,1] + f[:,2]      
@@ -156,9 +156,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h2/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h2/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h2/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h2/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27100_cE_-0.13100_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         k[:,i,h-1,1] = f[:,0]
         spe[:,i,h-1,1] = f[:,4]
         spe_2[:,i,h-1,1] = f[:,1] + f[:,2]    
@@ -173,9 +173,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h3/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h3/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
         else :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h3/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h3/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_-0.29200_cE_-0.59200_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.50000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
         k[:,i,h-1,1] = f[:,0]
         spe[:,i,h-1,1] = f[:,4]
         spe_2[:,i,h-1,1] = f[:,1] + f[:,2]    
@@ -185,9 +185,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h4/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h4/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h4/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h4/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.20_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.21400_cE_-0.13700_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         k[:,i,h-1,1] = f[:,0]
         spe[:,i,h-1,1] = f[:,4]
         spe_2[:,i,h-1,1] = f[:,1] + f[:,2]    
@@ -196,9 +196,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h5/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h5/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h5/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h5/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.80_Np_100_limit_10.0_c1_-0.15983_c3_-0.63145_c4_1.06557_cD_1.27800_cE_-0.07800_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         k[:,i,h-1,1] = f[:,0]
         spe[:,i,h-1,1] = f[:,4]
         spe_2[:,i,h-1,1] =f[:,1] + f[:,2]    
@@ -207,9 +207,9 @@ def read_data():
     
     for i in range(21):
         if (i<9) :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h6/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h6/SPE_n_0.0"+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"  )
         else :
-            f  = np.loadtxt("data/Effective mass/Neutron matter/h6/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
+            f  = np.loadtxt("data/Effective_mass/Neutron_matter/h6/SPE_n_0."+str(i+1)+"00000_x_0.0_N3LO_EM500_lam_2.00_Np_100_limit_10.0_c1_-0.14997_c3_-0.94322_c4_0.78141_cD_-3.00700_cE_-0.68600_c2pi1pi_0_c2piCont_0_c2pi_0_crelCS_0_crelCT_0_crel2pi_0_crings_0_L3_2.00000_L2_2.53387_nexp_4_nexpNN_4.txt"   )
         k[:,i,h-1,1] = f[:,0]
         spe[:,i,h-1,1] = f[:,4]
         spe_2[:,i,h-1,1] = f[:,1] + f[:,2]    

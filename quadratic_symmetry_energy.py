@@ -80,7 +80,7 @@ def read_data():
 
     
     for i in range(0,10):
-        f = np.loadtxt("data/Jerome_EOS_Drischler/EOS_spec_4_beta_0."+str(i)+".txt")
+        f = np.loadtxt("data/EOS_Drischler/EOS_spec_4_beta_0."+str(i)+".txt")
         d[:,i] = f[:,0]
         for k in range(0,6):
             if k == 5:
@@ -89,7 +89,7 @@ def read_data():
                 e[:,i,k] = f[:,k+1]
     
     
-    f = np.loadtxt("data/Jerome_EOS_Drischler/EOS_spec_4_beta_1.0.txt")     
+    f = np.loadtxt("data/EOS_Drischler/EOS_spec_4_beta_1.0.txt")     
     d[:,10] = f[:,0]
     for k in range(0,6):
         if k == 5:

@@ -89,7 +89,7 @@ def read_data():
     ################ Read data ##############################
     
     for i in range(0,10):
-        f = np.loadtxt("data/Jerome_EOS_Drischler/EOS_spec_4_beta_0."+str(i)+".txt")
+        f = np.loadtxt("data/EOS_Drischler/EOS_spec_4_beta_0."+str(i)+".txt")
         d[:,i] = f[:,0]
         for k in range(0,6):
             if k == 5:
@@ -98,7 +98,7 @@ def read_data():
                 e[:,i,k] = f[:,k+1]
     
     
-    f = np.loadtxt("data/Jerome_EOS_Drischler/EOS_spec_4_beta_1.0.txt")     
+    f = np.loadtxt("data/EOS_Drischler/EOS_spec_4_beta_1.0.txt")     
     d[:,10] = f[:,0]
     for k in range(0,6):
         if k == 5:
@@ -537,16 +537,16 @@ def plot_SNM_PNM():
 
 
 def plot_additional_data_scaling3():
-    f = np.loadtxt("data/Jerome_EOS_Drischler/Aurel-QMC.dat")
+    f = np.loadtxt("data/EOS_Drischler/Bulgac-QMC.dat")
     A_den = f[:,0]
     A_E = f[:,2]
     
-    f = np.loadtxt("data/Jerome_EOS_Drischler/Ingo-2016-QMC-band.dat")
+    f = np.loadtxt("data/EOS_Drischler/Tews-2016-QMC-band.dat")
     I_den = f[:,0]
     I_E = f[:,1]
     I_E_err = f[:,2]
     
-    f = np.loadtxt("data/Jerome_EOS_Drischler/apr.dat")
+    f = np.loadtxt("data/EOS_Drischler/APR.dat")
     apr_den = f[:,0]
     apr_E = f[:,2]
     
@@ -608,16 +608,16 @@ def plot_additional_data_scaling3():
 
 
 def plot_additional_data_scaling1():
-    f = np.loadtxt("data/Jerome_EOS_Drischler/Aurel-QMC.dat")
+    f = np.loadtxt("data/EOS_Drischler/Bulgac-QMC.dat")
     A_den = f[:,0]
     A_E = f[:,2]
     
-    f = np.loadtxt("data/Jerome_EOS_Drischler/Ingo-2016-QMC-band.dat")
+    f = np.loadtxt("data/EOS_Drischler/Tews-2016-QMC-band.dat")
     I_den = f[:,0]
     I_E = f[:,1]
     I_E_err = f[:,2]
     
-    f = np.loadtxt("data/Jerome_EOS_Drischler/apr.dat")
+    f = np.loadtxt("data/EOS_Drischler/APR.dat")
     apr_den = f[:,0]
     apr_E = f[:,2]
     
