@@ -1,7 +1,8 @@
 # Nuclear-Symmetry-Energy
-Supplementary material for the paper 'Constraints on the nuclear symmetry energy from asymmetric matter calculations with chiral effective field theory'.
 
-This repository contains the code used to perform the analysis presented in the above paper. 
+This repository contains the code used to perform the analysis presented in the paper: Somasundaram, Drischler, Tews, and Margueron, _Constraints on the nuclear symmetry energy from asymmetric-matter calculations with chiral NN and 3N interactions_, [arXiv:2009.04737](https://arxiv.org/abs/2009.04737).
+
+It also contains the analysed data originally presented in the publication: Drischler, Hebeler and Schwenk, _Asymmetric nuclear matter based on chiral two- and three-nucleon interactions_, [Phys. Rev. C 93, 054314 (2016)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.93.054314).
 
 
 List of programs:
